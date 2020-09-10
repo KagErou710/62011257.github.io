@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+        border-style: solid;
+        height: 842px;
+        width: 605px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+         
+    }
+        div.name_birth {
+ 
+            color: white;
+            background-color:rgb(9, 0, 129);
+            text-align: right;
+            float:left;
+            
+            padding-left: 245px;
+        }
+        div.name_birth p {
+            
+            
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        div.detail_1 {
+            color:black;
+            background-color:rgb(173, 230, 235);
+            width: 5cm;
+            padding-left: 20px;
+            height: 700 px;
+            margin-top: 150px;
+            font-size: 15px;
+        }
+
+        div.detail_2 b {
+            font-family:fantasy;
+        }
+
+        div.detail_2 setu {
+            margin-left:125px;
+
+        }
+
+
+
+        div.detail_2{
+            margin-top:-750px;
+            margin-left: 200px;
+            margin-right: 400px;
+            padding: 40px;
+            width: 300px;
+            height: 490px;
+            font-size: 15px;
+            
+        }
+
+        div.detail_2 hr{display: inline-flex;}
+        
+        div.detail_3{
+            display: inline-flex;
+            margin-left: 200px;
+            margin-right: 400px;
+            margin-top: -100;
+            padding: 40px;
+            width: 200;
+            height: 1px;
+        }
+
+        div.detail_3 h3{
+            width: 150px;
+        }
+
+        div.detail_4{
+            margin-left: 230px;
+            margin-right: 130px;
+            
+            margin-top: -100;
+            
+            line-height: 115%;
+        }
+
+
+        .slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 50%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 5px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: rgb(38, 0, 255); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+            
+
+
+
+        
+
+    </style>
+</html>
+
+<body>
+    <div>    
+
+        <div class="name_birth">
+        <h1>Tairo&nbsp;Kageyama&nbsp;62011257</h1>
+        <p>10&nbsp;July&nbsp;2000,&nbsp;Bangkok&nbsp;(Thailand)</p>
+        </div>
+
+
+        </div>
+
+        <div class="detail_1">
+            <a><img src = 'S__34848770.jpg' width="145" height= "165" ></a>
+
+            <h4> CONTACT</h4>
+            <hr style="color: chartreuse;">
+            <city>&#127968 Bangkok</city><br>
+            <phone>&#x260f 555-555-5555</phone><br>
+            <mail>&#9993 45451919@gmail.com</mail><br>
+            
+            <h4>EDUCATION</h4>
+            <hr>
+ 
+                <a>2007-2015&nbsp;-&nbsp;Thai-Japanese Association School Bangkok</a>
+                <hr>                
+                <a>2016-2018&nbsp;-&nbsp;Josuikan Bangkok International School</a>
+                <hr>
+                <a>2018-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;King Monkut's Institute of Technology Ladkrabang</a>
+                <hr>
+
+            <h4>LANGUAGES</h4>
+            <hr>
+                <div class="slidecontainer">
+                <a>Thai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><input type="range" min="1" max="100" value="20" class="slider" id="myRange"><br>
+                <a>Japanese</a><input type="range" min="1" max="100" value="90" class="slider" id="myRange"><br>
+                <a>English&nbsp;&nbsp;</a><input type="range" min="1" max="100" value="20" class="slider" id="myRange"><br>
+                <a>Chinese&nbsp;&nbsp;</a><input type="range" min="1" max="100" value="0" class="slider" id="myRange"><br>
+                </div>
+            
+
+
+        </div>
+
+        <div class="detail_2">
+            <h3>ABOUT ME</h3>
+            <hr width="300" style="border-color: rgba(0, 250, 21, 0.877);">
+            <ul>
+                
+                <a>A second year Thai engineering student in computer innovation engineering at KMITL. My objective is to join organization of company specialized at computer science over the sea. Therefore, now I am hard working at learning about programming in order to achieve the purpose.</a>
+
+
+            </ul>
+            <h3>EXPERIENCES</h3>
+            <hr width="300" style="border-color: rgba(0, 250, 21, 0.877);">
+
+            <ul>
+                <li>project of Line bot, remodeling gun.</li>
+                <ul>
+                    <li>In Line Bot project, I create a bot that send pictures, video, and alarm. </li>
+                    <li>In remodeling gun project, I remodel the gun more safety, and can send live video.</li>
+                </ul>                    
+            </ul>
+
+            <h3>SKILLS</h3>
+            <hr width="300" style="border-color: rgba(0, 250, 21, 0.877);">
+
+            <ul>
+                <li>computer language</li>
+                    <ul>
+                        <li>python</li>
+                        <li>C</li>
+                        <li>html</li>
+                    </ul>
+                
+                
+            </ul>
+
+            <h3>CHARACTERISTIC</h3>
+            <hr width="300" style="border-color: rgba(0, 250, 21, 0.877);">
+            <ul>
+                ・High concentration
+                ・Logical thinking
+                ・Earnest
+                ・lots of curiousity
+
+            </ul>
+
+            
+
+
+
+</body>
